@@ -8,13 +8,18 @@
   <meta name="description" content="Car and Bike Renting">
   <title> Tripling | Home </title>
   <link rel="stylesheet" href="./css/stylesheet.css">
+  <style>
+    #trip{
+      color: 	#808080;
+    }
+  </style>
 </head>
 <body>
 
   <header>
     <div class="container" id="opac">
       <div id="branding">
-        <center><h1><a href="index.php">Tripling</a></h1></center>
+        <center><h1><a href="index.php"><span id="trip">Tripling</span></a></h1></center>
       </div>
     </div>
   </header>
