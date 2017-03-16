@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
   <meta charset="utf-8">
@@ -9,24 +7,35 @@
   <title> Tripling | Home </title>
   <link rel="stylesheet" href="./css/stylesheet.css">
   <style>
-    #trip{
-      color: 	#808080;
-    }
+  body{
+    font: 25px/1.5 fantasy;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+
+
+
+  .styles{
+    font-weight: lighter;
+  }
+
   </style>
 </head>
 <body>
 
   <header>
-    <div class="container" id="opac">
+    <div class="container">
       <div id="branding">
-        <center><h1><a href="index.php"><span id="trip">Tripling</span></a></h1></center>
+        <center><h2><a href="index.php"><span>Tripling</span></a></h2></center>
       </div>
     </div>
   </header>
 
   <section id="showcase">
-    <div class="container">
-    <h3></h3>
+    <div class="container" id="opac">
+    <h2>Road trips are exciting.....Why don't u make one ?</h2>
+    <h3><h3>
     <p></p>
     </div>
   </section>
@@ -35,27 +44,27 @@
         <div class="container">
           <div class="box">
             <img src="./img/section_1.png" style="width:100px;">
-            <h3>CHOOSE</h3>
+            <h3 style="font-size:20px;" class="styles">CHOOSE</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
           </div>
           <div class="box">
             <img src="./img/section_2.png" style="width:100px">
-            <h3>RENT</h3>
+            <h3 style="font-size:20px;" class="styles">RENT</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
           </div>
           <div class="box">
             <img src="./img/section_3.png" style="width:110px">
-            <h3>TRIP</h3>
+            <h3 style="font-size:20px;" class="styles">TRIP</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
             </div>
         </div>
       </section>
 
-      <center><a href="product.php"><input type="submit" name="" value="Start Renting" ></a></center>
+      <center><a href="product.php"><input type="submit" name="" value="Start Renting" class="styles" ></a></center>
 
       <footer>
         <p>Tripling Copyright &copy; 2017</p>
-        <p>Made with &hearts; by Kirtan</p>
+        <p style="font-size:20px;">Made with <span style="color:red;"> &hearts; </span>by Kirtan</p>
       </footer>
 
 </body>
